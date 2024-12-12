@@ -1,0 +1,40 @@
+# Byte-compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment directories
+env/
+venv/
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Image cache (if any)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Build/packaging directories
+build/
+dist/
+*.egg-info/
+
+# Executables
+*.exe
+*.dll
+
+# Pipenv files (if you're using Pipenv)
+Pipfile.lock
+
