@@ -1,6 +1,7 @@
 import requests
 from io import BytesIO
 from PIL import Image
+import time
 
 def fetch_genres():
     url = "https://graphql.anilist.co"
@@ -11,6 +12,7 @@ def fetch_genres():
     """
     try:
         response = requests.post(url, json={"query": query}, timeout=10)
+        time.sleep(1.1)  # Throttle the requests
         if response.status_code == 200:
             genres = response.json().get("data", {}).get("GenreCollection", [])
             return [genre for genre in genres if genre.lower() != "hentai"]
@@ -43,6 +45,7 @@ def fetch_anime(genres):
     variables = {"genres": genres}
     try:
         response = requests.post(url, json={"query": query, "variables": variables}, timeout=10)
+        time.sleep(1.1)  # Throttle the requests
         if response.status_code == 200:
             return response.json().get("data", {}).get("Page", {}).get("media", [])
         else:
@@ -51,7 +54,6 @@ def fetch_anime(genres):
     except requests.RequestException as e:
         print(f"Network error: {e}")
         return []
-
 
 def fetch_popular_anime_for_genre(genre):
     url = "https://graphql.anilist.co"
@@ -73,6 +75,7 @@ def fetch_popular_anime_for_genre(genre):
     variables = {"genre": genre}
     try:
         response = requests.post(url, json={"query": query, "variables": variables}, timeout=10)
+        time.sleep(1.1)  # Throttle the requests
         if response.status_code == 200:
             media = response.json().get("data", {}).get("Page", {}).get("media", [])
             return media[0] if media else None
@@ -82,3 +85,4 @@ def fetch_popular_anime_for_genre(genre):
     except requests.RequestException as e:
         print(f"Network error for genre {genre}: {e}")
         return None
+
