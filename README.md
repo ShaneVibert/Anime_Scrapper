@@ -44,9 +44,8 @@ pip: Python's package installer should be installed by default with Python.
 Steps to Install
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/ShaneVibert/Anime_Scrapper
+
 cd Anime
 
 setup your virtual enviornment:
