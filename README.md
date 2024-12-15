@@ -93,13 +93,13 @@ Back Button: Once recommendations are displayed, you can go back to the genre se
 Contributing-
 Contributions are welcome! If you would like to improve this project and i greatly thank you for it!!
 
-be sure your not working in the main branch, if you don't know.
-start by clicking the "Fork" button at the top right
-git checkout -b feature-branch
-then make your changed and commit them to there for example:
-git commit -m 'add new feature'
-then push the changes to your forked repository
-Open a Pull Request (PR) from your feature branch to the main branch of the original repository.
+Be sure your not working in the main branch, just in case you don't know.
+            Start by clicking the "Fork" button at the top right.
+            git checkout -b feature-branch
+            then make your changed and commit them to there for example:
+            git commit -m 'add new feature'
+            then push the changes to your forked repository
+            Open a Pull Request (PR) from your feature branch to the main branch of the original repository.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 License
