@@ -65,11 +65,17 @@ Usage-
 Running the Application
 After launching the app a set of instruction will apear on the right side of the screen saying as follows:
             "1. Make sure your screen is full screen. *SQUARE IN THE TOP RIGHT*"
+            
             "2. Select genres from the list."
+            
             "3. Click 'Submit' to find anime based on the selected genres."
+            
             "4. Only click once, the API from anilist is limited. This causes hiccups. "
+            
             "5. The results will show the top 10 popular anime related to the genres."
+            
             "6. Once results show, search the anime name up for where to watch and enjoy:)"
+            
 
 Navigating the UI
 Genres: Choose your favorite genres from the list of options.
