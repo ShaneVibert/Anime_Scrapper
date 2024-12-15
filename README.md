@@ -25,13 +25,20 @@ Responsive Design: The window size adjusts to fit your screen resolution for an 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Technologies Used-
-Python – Programming language for the app.
-Tkinter – GUI framework for creating the desktop application interface.
-AniList API – API used to fetch anime data based on genres.
-Pillow – Library used for handling images and displaying anime cover images.
-screeninfo – Used to get screen dimensions for setting the window size based on the user's monitor.
-ctypes – For setting window size and ensuring compatibility on Windows systems.
-threading – For handling background tasks like fetching data from the API without freezing the UI.
+
+            Python – Programming language for the app.
+            
+            Tkinter – GUI framework for creating the desktop application interface.
+            
+            AniList API – API used to fetch anime data based on genres.
+            
+            Pillow – Library used for handling images and displaying anime cover images.
+            
+            screeninfo – Used to get screen dimensions for setting the window size based on the user's monitor.
+            
+            ctypes – For setting window size and ensuring compatibility on Windows systems.
+            
+            threading – For handling background tasks like fetching data from the API without freezing the UI.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Installation-
