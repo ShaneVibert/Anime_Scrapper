@@ -94,6 +94,7 @@ Contributing-
 Contributions are welcome! If you would like to improve this project and i greatly thank you for it!!
 
 Be sure your not working in the main branch, just in case you don't know.
+
             Start by clicking the "Fork" button at the top right.
             git checkout -b feature-branch
             then make your changed and commit them to there for example:
