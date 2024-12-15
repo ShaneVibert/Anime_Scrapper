@@ -64,6 +64,7 @@ anime-finder
 Usage-
 Running the Application
 After launching the app a set of instruction will apear on the right side of the screen saying as follows:
+
             "1. Make sure your screen is full screen. *SQUARE IN THE TOP RIGHT*"
             
             "2. Select genres from the list."
